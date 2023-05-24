@@ -11,52 +11,11 @@
   height:40px;
   background-color: blue;
 }
-.navt1{
-  color:white;
-  position: absolute;
-  left:250px;
-  top:10px;
-  text-decoration: none;
-  font-size: 20px;
-  font-style: italic;
+.feilder{
+  text-align: center;
+  margin: 100px;
 }
-.navt1:hover{
-  color:yellow;
-}
-.navt2{
-  color:white;
-  position: absolute;
-  left:600px;
-  top:10px;
-  text-decoration: none;
-  font-size: 20px;
-  font-style: italic;
-}
-.navt2:hover{
-  color:yellow;
-}
-.navt3{
-  color:white;
-  position: absolute;
-  left:1000px;
-  top:10px;
-  text-decoration: none;
-  font-size: 20px;
-  font-style: italic;
-}
-.navt3:hover{
-  color:yellow;
-}
-.t1{
-  position: absolute;
-  top:100px;
-  left:50px;
-}
-.headstudent{
-  position: absolute;
-  top:100px;
-  left:50px;
-}
+
 .add{
   text-align: center;
   height:30px;
@@ -82,63 +41,12 @@
   width:90%;
   height:450px;
 }
-.insidetable{
+.tbw{
   width:1500px;
   border-collapse:collapse;
 }
 .tr{
   border-bottom: 1px solid black;
 }
-.editing{
-  display: grid;
-  grid-template-columns: auto auto;
-  width:70%;
-  height:270px;
-  grid-gap:130px;
-  margin-left:100px;
-  margin-top: 100px;
-}
-.Name{
-  position: absolute;
-  top:135px;
-  left:120px;
-  font-size: 15px;
-}
-.Age{
-  position: absolute;
-  top:135px;
-  left:635px;
-  font-size: 15px;
-}
-.Course{
-  position: absolute;
-  top:335px;
-  left:120px;
-  font-size: 15px;
-}
-.Batch{
-  position: absolute;
-  top:335px;
-  left:635px;
-  font-size: 15px;
-}
-.Cancel{
-  background-color: grey;
-  height:35px;
-  width:200px;
-  border-radius: 20px;
-  font-size: 18px; 
-  position: absolute;
-  left:800px;
-  top:480px;
-}
-.Update{
-  background-color: white;
-  height:35px;
-  width:200px;
-  border-radius: 20px;
-  font-size: 18px; 
-  position: absolute;
-  left:1030px;
-  top:480px;
-}
+
+

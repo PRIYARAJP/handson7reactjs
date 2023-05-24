@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 import  "./reduce.css"
 import { useNavigate } from 'react-router-dom';
 import { useDispatch,useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { studentAdded } from './StudentSlice';
+import Nav from './nav';
 function Newstudent() {
   const data=useSelector((state)=>state.student);
   const[Name,setName]=useState("");
@@ -32,30 +33,28 @@ function Newstudent() {
   }
   return (
     <div className='body'>
-      <div className='nav'><Link className='navt1' to="/">Home</Link>
-      <Link className='navt2' to="/students">Students</Link>
-      <Link className='navt3' to="/contact">Contact</Link>
-      </div>
-      <h1>Enter Student Details</h1>
+
+        <Nav/>
   
-
-
+      <h1>Enter Student Details</h1>
       <div className='feild'>
           <fieldset><legend>Name:</legend>
-      <input className='Nameip' name="Name" placeholder='Enter Name' onChange={(e)=>setName(e.target.value)}/>
+      <input  name="Name" placeholder='Enter Name' onChange={(e)=>setName(e.target.value)}/>
       </fieldset>
       <fieldset><legend>Age:</legend>
-      <input className='Aageip' name="Age" placeholder='Enter Age' onChange={(e)=>setAge(e.target.value)}/>
+      <input  name="Age" placeholder='Enter Age' onChange={(e)=>setAge(e.target.value)}/>
       </fieldset>
       <fieldset><legend>Course:</legend>
-      <input className='Courseip' name="Course" placeholder='Enter Course' onChange={(e)=>setCourse(e.target.value)}/>
+      <input name="Course" placeholder='Enter Course' onChange={(e)=>setCourse(e.target.value)}/>
       </fieldset>
       <fieldset><legend>Batch:</legend>
-      <input className='Batchip' name="Batch" placeholder='Enter batch' onChange={(e)=>setBatch(e.target.value)}/>
+      <input  name="Batch" placeholder='Enter batch' onChange={(e)=>setBatch(e.target.value)}/>
       </fieldset>
       </div>
-      <button className='Cancel' onClick={handlecancel}>Cancel</button>
+      <div className='feilder'>
+      <button className='Cancel' onClick={handlecancel}>Cance</button>
       <button className='Update' onClick={handleClick}>Submit</button>
+      </div>
     </div>
   )
 }

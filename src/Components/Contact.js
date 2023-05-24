@@ -7,7 +7,7 @@ function Contact() {
       <div className='nav'>
        <Nav/>
       </div>
-      <p className='t1'>Contact Us Page</p>
+      <h1>CONTACT US</h1>
     </div>
   )
 }

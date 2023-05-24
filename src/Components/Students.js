@@ -13,12 +13,15 @@ function Students() {
     <div className='nav'>
         <Nav/>
       </div>
-      <h1 className='headstudent'>Students Details</h1>
-      <div className='add'>
-        <button onClick={()=>{Navi('/newstudent')}}>Add new student</button></div>
+      <div className="sttop">
+<nav className="addbt1">Students Details</nav> 
+<nav className="addbt" onClick={() =>
+         {Navi('/newstudent')}} >Add New Student</nav>
+   </div>
 
+     
         <div className='table'>
-            <table className='insidetable'>
+            <table className='tbw'>
                 <thead>
                 <tr className='tr'>
                     <td>Name</td>

@@ -1,8 +1,9 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { useLocation,useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useState } from 'react';
 import { studentUpdated } from './StudentSlice';
+import Nav from './nav';
 function Editstudent() {
     const dispatch=useDispatch();
     const data=useLocation(); 
@@ -39,10 +40,8 @@ function Editstudent() {
     }
   return (
     <div className='body'>
-      <div className='nav'><Link className='navt1' to="/">Home</Link>
-      <Link className='navt2' to="/students">Students</Link>
-      <Link className='navt3' to="/contact">Contact</Link>
-      </div>
+      
+    <Nav/> 
       <h1>This is Edit Students Components</h1>
 
       <div className='feild'>
@@ -50,19 +49,20 @@ function Editstudent() {
       <input  type='text' name='Name' placeholder='Name' value={Name} onChange={(e)=>setName(e.target.value)}/>
       </fieldset>
       <fieldset><legend>Age:</legend>
-      <input className='Ageip' type='text' name='Age' placeholder='Age' value={Age} onChange={(e)=>setAge(e.target.value)}/>
+      <input  type='text' name='Age' placeholder='Age' value={Age} onChange={(e)=>setAge(e.target.value)}/>
       </fieldset>
       <fieldset><legend>Course:</legend>
      
-      <input className='Courseip' type='text' name='Course' placeholder='Course' value={Course} onChange={(e)=>setCourse(e.target.value)}/>
+      <input type='text' name='Course' placeholder='Course' value={Course} onChange={(e)=>setCourse(e.target.value)}/>
       </fieldset>
       <fieldset><legend>Batch:</legend>
-      <input className='Batchip' type='text' name='Batch' placeholder='Batch' value={Batch} onChange={(e)=>setBatch(e.target.value)}/>
+      <input  type='text' name='Batch' placeholder='Batch' value={Batch} onChange={(e)=>setBatch(e.target.value)}/>
       </fieldset>
       </div>
-      <button className='Cancel' onClick={handleCancel}>Cancel</button>
-      <button className='Update' onClick={handleUpdate}>Update</button>
-    
+      <div className='feilder'>
+      <button  onClick={handleCancel}>Cancel</button>
+      <button onClick={handleUpdate}>Update</button>
+    </div>
     </div>
   )
 }

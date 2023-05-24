@@ -7,7 +7,7 @@ function Homee() {
       <div className='nav'>
       <Nav/>
       </div>
-      <p className='t1'>Home Page</p>
+      <h1>HOME PAGE</h1>
     
     </div>
   )
