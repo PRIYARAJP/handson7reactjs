@@ -1,0 +1,205 @@
+.App {
+    text-align: center;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family:serif;
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+  
+    top:-40px;
+  }
+  
+  
+  
+  
+  
+  .App-header {
+    background-image: linear-gradient(rgb(38, 158, 238),pink,white);
+    min-height: 100vh;
+  
+  }
+  
+  
+  button{
+    border: black  solid 3px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  button:hover{
+    border: blue solid 3px;
+    background-color: rgb(177, 246, 246);
+  }
+  .App-link {
+    color: #61dafb;
+  }
+  .addbt{
+    height: 50px;
+    background-color: white;
+    border: black 3px solid;
+    font-size: 45px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .addbt:hover{
+    border: rgb(126, 126, 224) solid 3px;
+    background-color: rgb(177, 246, 246);
+  }
+  
+  .updateer{
+    height: 50px;
+    display: block; 
+     border: black solid 0px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     background-color:white;
+     border: rgb(155, 138, 138) solid 1px;
+     /* overflow-x: auto; */
+   
+   }
+  .addbt1{
+    height: 50px;
+    font-size: 45px;
+  }
+  .bordering{
+   display: block; 
+    border: black solid 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:blue;
+    /* overflow-x: auto; */
+  }
+  .sttop{
+    display: block; 
+    border: black solid 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .updates{
+    color: white;
+  width: auto;
+  font-size: 40px;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+    text-decoration:underline blue;
+  }
+ 
+  .updates:hover{
+   
+  color: rgb(255, 165, 180);
+  }
+  /* th{
+  
+    color: black;
+    width: auto;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 35px; 
+ 
+  
+  } */
+  .newwer{
+   
+    font-weight: bolder;
+    display: block; 
+     border: black solid 0px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     background-color:white;
+  }
+  /* td{
+    color: black;
+    height: 25px;
+    width: 250px;
+    padding-left: 20px;
+    display: flex;
+    padding-top: 15px;
+    font-size: 20px; 
+    overflow-y: auto;
+    text-align: left;
+  } */
+  table{
+    background-color: white;
+
+  }
+  h1{
+    text-align: center;
+    margin: 20px;
+  }
+  thead{
+    font-size: larger;
+    font-weight: 700;
+  }
+  .tableupdate{
+    /* border-collapse: collapse; */
+    display: block; 
+    border: black solid 0px; 
+    justify-content: space-between;
+    background-color:white;
+    padding: 0px;
+    margin: 60px;
+  }
+  table{
+    border-collapse: collapse;
+  }
+  
+  fieldset{
+    width: 250px;
+    /* height: 50px; */
+    margin: 30px 200px;
+    padding: -120px;
+    
+  }
+  fieldset:hover{
+    border: blue solid 3px;
+    
+  }
+  legend{
+    text-align: left;
+    color: blue;
+  }
+  
+  .feild{
+    display: flex;
+ flex-wrap: wrap;
+   
+  }
+  input[type="text"],input[type="text"]:focus     
+  {   
+    font-size: 30px;      
+    background: transparent;         
+    border: none;        
+    outline-width:0 ;}
+     input[type="numbers"],input[type="numbers"]:focus     
+  {      
+    font-size: 30px;      
+    background: transparent;         
+    border: none;        
+     outline-width:0 ;}
+     input{
+      border: transparent  solid 3px;
+      background-color: transparent;
+      width: 200px;
+   
+      padding: 10px;
+      /* border-radius: 50px; */
+    }
+    input:hover{
+      border: transparent solid 0px;
+      /* background-color: transparent; */
+    }
+    .edit{
+      color: blue;
+      text-decoration: underline;
+    }
+    .edit:hover{
+      color: red;
+    }
