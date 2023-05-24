@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/handson7reactjs/static/css/main.63d97944.css",
+    "main.js": "/handson7reactjs/static/js/main.afb17631.js",
+    "index.html": "/handson7reactjs/index.html",
+    "main.63d97944.css.map": "/handson7reactjs/static/css/main.63d97944.css.map",
+    "main.afb17631.js.map": "/handson7reactjs/static/js/main.afb17631.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63d97944.css",
+    "static/js/main.afb17631.js"
+  ]
+}
