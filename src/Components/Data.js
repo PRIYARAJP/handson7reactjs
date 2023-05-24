@@ -1,49 +1,49 @@
 const Student=[
     {
         "id":0,
-        "Name":"Akshay",
+        "Name":"PRIYA",
         "Age":"23",
         "Course":"MERN",
         "Batch":"October"
     },
     {
         "id":1,
-        "Name":"Aksha",
+        "Name":"DHARSHINI",
         "Age":"25",
         "Course":"MERN",
         "Batch":"October"
     },
     {
         "id":2,
-        "Name":"Ashay",
+        "Name":"RAJA",
         "Age":"22",
         "Course":"MERN",
         "Batch":"October"
     },
     {
         "id":3,
-        "Name":"Aksay",
+        "Name":"SEKER",
         "Age":"21",
         "Course":"MERN",
         "Batch":"October"
     },
     {
         "id":4,
-        "Name":"Ashay",
+        "Name":"SANGEETHA",
         "Age":"23",
         "Course":"MERN",
         "Batch":"October"
     },
     {
         "id":5,
-        "Name":"Akhay",
+        "Name":"JOSAN",
         "Age":"29",
         "Course":"MERN",
         "Batch":"October"
     },
     {
         "id":6,
-        "Name":"Aksh",
+        "Name":"SANJAY",
         "Age":"23",
         "Course":"MERN",
         "Batch":"October"
