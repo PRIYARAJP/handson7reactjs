@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/handson7reactjs/static/css/main.d44af073.css",
-    "main.js": "/handson7reactjs/static/js/main.51b2b1f0.js",
+    "main.js": "/handson7reactjs/static/js/main.34e5420d.js",
     "index.html": "/handson7reactjs/index.html",
     "main.d44af073.css.map": "/handson7reactjs/static/css/main.d44af073.css.map",
-    "main.51b2b1f0.js.map": "/handson7reactjs/static/js/main.51b2b1f0.js.map"
+    "main.34e5420d.js.map": "/handson7reactjs/static/js/main.34e5420d.js.map"
   },
   "entrypoints": [
     "static/css/main.d44af073.css",
-    "static/js/main.51b2b1f0.js"
+    "static/js/main.34e5420d.js"
   ]
 }
